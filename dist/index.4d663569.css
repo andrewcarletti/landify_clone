@@ -541,7 +541,7 @@ img, video {
 
 .text-neutral-300 {
   --tw-text-opacity: 1;
-  color: rgb(212 212 212 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .shadow-md {
