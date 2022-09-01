@@ -8,6 +8,7 @@ module.exports = {
           600: "#7C3AED",
         },
         secondary: {
+          600: "#1DB5BE",
           100: "#D5FAFC"
         },
         neutral: {
