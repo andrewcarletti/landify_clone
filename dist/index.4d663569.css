@@ -284,12 +284,16 @@ img, video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-7 {
+  height: 1.75rem;
 }
 
 .w-full {
@@ -320,10 +324,6 @@ img, video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -340,6 +340,10 @@ img, video {
   gap: .75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -354,10 +358,6 @@ img, video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .rounded-lg {
@@ -572,28 +572,60 @@ img, video {
 }
 
 @media (min-width: 768px) {
-  .md\:top-20 {
-    top: 5rem;
+  .md\:mt-3 {
+    margin-top: .75rem;
   }
 
-  .md\:mt-20 {
-    margin-top: 5rem;
+  .md\:mt-8 {
+    margin-top: 2rem;
   }
 
   .md\:flex {
     display: flex;
   }
 
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:gap-3 {
+    gap: .75rem;
   }
 
   .md\:gap-4 {
     gap: 1rem;
   }
 
-  .md\:gap-3 {
-    gap: .75rem;
+  .md\:gap-\[10px\] {
+    gap: 10px;
+  }
+
+  .md\:gap-0 {
+    gap: 0;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
+  .md\:gap-2 {
+    gap: .5rem;
+  }
+
+  .md\:gap-1 {
+    gap: .25rem;
   }
 
   .md\:px-10 {
@@ -609,6 +641,12 @@ img, video {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:justify-around {
+    justify-content: space-around;
   }
 }
 
