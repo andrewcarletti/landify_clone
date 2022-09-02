@@ -616,12 +616,20 @@ img, video {
     width: 9rem;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
 
   .md\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:justify-start {
