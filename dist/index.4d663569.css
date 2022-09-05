@@ -268,8 +268,16 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.top-2 {
+  top: .5rem;
 }
 
 .z-10 {
@@ -290,6 +298,22 @@ img, video {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-\[270px\] {
+  height: 270px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[536px\] {
+  height: 536px;
 }
 
 .w-full {
@@ -318,6 +342,10 @@ img, video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-\[696px\] {
+  width: 696px;
 }
 
 .cursor-pointer {
@@ -732,12 +760,101 @@ img, video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
+  .xl\:relative {
+    position: relative;
+  }
+
+  .xl\:top-2 {
+    top: .5rem;
+  }
+
+  .xl\:top-5 {
+    top: 1.25rem;
+  }
+
+  .xl\:-top-8 {
+    top: -2rem;
+  }
+
+  .xl\:order-3 {
+    order: 3;
+  }
+
+  .xl\:order-1 {
+    order: 1;
+  }
+
+  .xl\:order-2 {
+    order: 2;
+  }
+
+  .xl\:m-28 {
+    margin: 7rem;
+  }
+
+  .xl\:my-28 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .xl\:my-\[111px\] {
+    margin-top: 111px;
+    margin-bottom: 111px;
+  }
+
+  .xl\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .xl\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .xl\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .xl\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .xl\:my-14 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .xl\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .xl\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .xl\:ml-5 {
     margin-left: 1.25rem;
   }
 
   .xl\:mt-0 {
     margin-top: 0;
+  }
+
+  .xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .xl\:mt-28 {
+    margin-top: 7rem;
   }
 
   .xl\:flex {
@@ -750,6 +867,58 @@ img, video {
 
   .xl\:h-full {
     height: 100%;
+  }
+
+  .xl\:h-1\/2 {
+    height: 50%;
+  }
+
+  .xl\:h-60 {
+    height: 15rem;
+  }
+
+  .xl\:h-56 {
+    height: 14rem;
+  }
+
+  .xl\:h-1\/3 {
+    height: 33.3333%;
+  }
+
+  .xl\:h-2\.5 {
+    height: .625rem;
+  }
+
+  .xl\:h-2 {
+    height: .5rem;
+  }
+
+  .xl\:h-1\/4 {
+    height: 25%;
+  }
+
+  .xl\:h-28 {
+    height: 7rem;
+  }
+
+  .xl\:h-96 {
+    height: 24rem;
+  }
+
+  .xl\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .xl\:h-\[1000px\] {
+    height: 1000px;
+  }
+
+  .xl\:h-\[536px\] {
+    height: 536px;
+  }
+
+  .xl\:h-\[336px\] {
+    height: 336px;
   }
 
   .xl\:w-2\/3 {
@@ -816,20 +985,68 @@ img, video {
     width: 480px;
   }
 
+  .xl\:w-1\/4, .xl\:w-3\/12 {
+    width: 25%;
+  }
+
+  .xl\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .xl\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .xl\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .xl\:w-\[38\%\] {
+    width: 38%;
+  }
+
+  .xl\:w-\[39\%\] {
+    width: 39%;
+  }
+
+  .xl\:flex-1 {
+    flex: 1;
+  }
+
+  .xl\:flex-shrink {
+    flex-shrink: 1;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:flex-col {
+    flex-direction: column;
   }
 
   .xl\:flex-wrap {
     flex-wrap: wrap;
   }
 
+  .xl\:items-end {
+    align-items: flex-end;
+  }
+
   .xl\:items-center {
     align-items: center;
   }
 
+  .xl\:items-stretch {
+    align-items: stretch;
+  }
+
   .xl\:justify-start {
     justify-content: flex-start;
+  }
+
+  .xl\:justify-end {
+    justify-content: flex-end;
   }
 
   .xl\:justify-center {
@@ -842,6 +1059,14 @@ img, video {
 
   .xl\:justify-around {
     justify-content: space-around;
+  }
+
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .xl\:justify-items-center {
+    justify-items: center;
   }
 
   .xl\:gap-2 {
@@ -868,6 +1093,30 @@ img, video {
     gap: 4rem;
   }
 
+  .xl\:overflow-auto {
+    overflow: auto;
+  }
+
+  .xl\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .xl\:overflow-clip {
+    overflow: clip;
+  }
+
+  .xl\:overflow-visible {
+    overflow: visible;
+  }
+
+  .xl\:overflow-scroll {
+    overflow: scroll;
+  }
+
+  .xl\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+
   .xl\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
@@ -888,6 +1137,16 @@ img, video {
     padding-bottom: 6rem;
   }
 
+  .xl\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .xl\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
   .xl\:pt-96 {
     padding-top: 24rem;
   }
@@ -906,8 +1165,22 @@ img, video {
     line-height: 1;
   }
 
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .xl\:font-semibold {
     font-weight: 600;
+  }
+
+  .xl\:leading-\[60px\] {
+    line-height: 60px;
   }
 
   .xl\:text-neutral-900 {
