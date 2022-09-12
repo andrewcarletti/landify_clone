@@ -8,7 +8,9 @@
     <title>Landify Clone</title>
   </head>
   <body class="font-sans">
-    <header class="flex flex-col gap-2 xl:gap-20 box-border relative overflow-hidden header-background-img">
+    <header
+      class="flex flex-col gap-2 xl:gap-20 box-border relative overflow-hidden header-background-img"
+    >
       <span class="header-blur"></span>
       <!-- navbar -->
       <div
@@ -22,10 +24,16 @@
           <div
             class="hidden xl:flex xl:items-center xl:gap-2 xl:text-sm xl:text-neutral-900 xl:font-semibold xl:ml-5"
           >
-            <a class="">Features</a>
-            <a class="py-1 px-2">Pricing</a>
-            <a class="py-1 px-2">Careers</a>
-            <a class="py-1 px-2">Help</a>
+            <a class="py-1 px-2 cursor-pointer hover:text-primary-600"
+              >Features</a
+            >
+            <a class="py-1 px-2 cursor-pointer hover:text-primary-600"
+              >Pricing</a
+            >
+            <a class="py-1 px-2 cursor-pointer hover:text-primary-600"
+              >Careers</a
+            >
+            <a class="py-1 px-2 cursor-pointer hover:text-primary-600">Help</a>
           </div>
         </div>
 
@@ -34,12 +42,12 @@
             <img
               src="./assets/store/google_play.svg"
               alt="google play"
-              class="h-10"
+              class="h-10 cursor-pointer hover:scale-110 transition-transform"
             />
             <img
               src="./assets/store/app_store.svg"
               alt="app store"
-              class="h-10"
+              class="h-10 cursor-pointer hover:scale-105 transition-transform"
             />
           </div>
           <img src="./assets/icons/menu.svg" class="xl:hidden" />
@@ -65,12 +73,12 @@
           <!-- buttons -->
           <div class="flex justify-between md:justify-start md:gap-4">
             <button
-              class="rounded-lg py-4 px-6 text-base font-semibold bg-primary-600 text-white"
+              class="rounded-lg py-4 px-6 text-base font-semibold bg-primary-600 text-white hover:scale-110 transition-transform duration-100"
             >
               Get Started
             </button>
             <button
-              class="flex gap-2 py-4 px-6 text-base font-semibold items-center text-primary-600"
+              class="rounded-lg py-4 px-6 text-base font-semibold flex gap-2 items-center text-primary-600 hover:scale-110 transition-transform duration-100"
             >
               <img src="./assets/icons/play.svg" />
               Watch Video
@@ -452,8 +460,16 @@
           <div class="flex flex-col gap-2">
             <h6 class="text-neutral-900 text-lg font-medium">Get the App</h6>
             <div class="flex gap-3">
-              <img src="./assets/store/google_play.svg" alt="google play" />
-              <img src="./assets/store/app_store.svg" alt="app store" />
+              <img
+                src="./assets/store/google_play.svg"
+                alt="google play"
+                class="cursor-pointer hover:scale-110 transition-transform"
+              />
+              <img
+                src="./assets/store/app_store.svg"
+                alt="app store"
+                class="cursor-pointer hover:scale-110 transition-transform"
+              />
             </div>
           </div>
         </div>
@@ -480,15 +496,31 @@
         <!-- links -->
         <div class="flex flex-wrap gap-3 w-72 text-base font-normal md:w-full">
           <div class="w-full flex gap-6">
-            <a class="cursor-pointer">Download Now</a>
-            <a class="cursor-pointer">License</a>
+            <a class="cursor-pointer hover:scale-105 transition-transform"
+              >Download Now</a
+            >
+            <a class="cursor-pointer hover:scale-105 transition-transform"
+              >License</a
+            >
           </div>
-          <a class="cursor-pointer">About</a>
-          <a class="cursor-pointer">Features</a>
-          <a class="cursor-pointer">Pricing</a>
-          <a class="cursor-pointer">News</a>
-          <a class="cursor-pointer">Help</a>
-          <a class="cursor-pointer">Contact</a>
+          <a class="cursor-pointer hover:scale-105 transition-transform"
+            >About</a
+          >
+          <a class="cursor-pointer hover:scale-105 transition-transform"
+            >Features</a
+          >
+          <a class="cursor-pointer hover:scale-105 transition-transform"
+            >Pricing</a
+          >
+          <a class="cursor-pointer hover:scale-105 transition-transform"
+            >News</a
+          >
+          <a class="cursor-pointer hover:scale-105 transition-transform"
+            >Help</a
+          >
+          <a class="cursor-pointer hover:scale-105 transition-transform"
+            >Contact</a
+          >
         </div>
         <!-- copyright -->
         <p class="text-neutral-300 text-sm font-normal">
@@ -499,11 +531,15 @@
       <!-- get the app -->
       <div class="flex flex-col gap-4 items-start">
         <h6 class="text-neutral-300 text-lg font-medium">Get the App</h6>
-        <img src="./assets/store/app_store.svg" alt="app store" class="h-10" />
+        <img
+          src="./assets/store/app_store.svg"
+          alt="app store"
+          class="h-10 cursor-pointer hover:scale-110 transition-transform"
+        />
         <img
           src="./assets/store/google_play.svg"
           alt="google play"
-          class="h-10"
+          class="h-10 cursor-pointer hover:scale-110 transition-transform"
         />
       </div>
     </footer>
